@@ -1,7 +1,7 @@
 ---
 layout: tag_page
 title: Aleatoriedades
-tag: miscellaneous
+tag: aleatoriedades
 permalink: /miscellaneous/
 lang: es
 ---
