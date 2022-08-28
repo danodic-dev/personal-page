@@ -1,0 +1,130 @@
+---
+layout: post
+title: "Fábrica de Pesadelos"
+lang: pt
+tags: [aleatoriedades, ia, dreamstudio]
+---
+
+Na ultima semana eu escrevi um devlog inteiro e deixei para traduzir mais tarde. _Esqueci completamente disso._
+
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5j8m_SeBeOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+Lembrei disso apenas quando abri o editor para digitar qualquer babaquice aleatória. Portanto, nada mais justo que ouvir _Link to the Past_ enquanto eu faço isso.
+
+## Eu não fiz nada
+
+Essa semana fiquei enrolando para implementar a integração com a [bullet]() no jogo. Entre uma encarada e outra na ide, fiz coisas aleatórias.
+
+Eu tinha lido bastante a respeito da [midjourney](), uma IA para geração de arte a partir de descrições textuais. Eu acho ideia de ter IA gerando arte algo excelente, e a cura para qualquer tipo de bloqueio mental. Além disso, extrapolar os conceitos gerados pela IA em coisas mais práticas é algo muito interessante.
+
+> <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8uh-qFOi7lQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+>
+> _Este cara pegou arte gerada pela midjourney e gerou uma cena em 3d._
+
+## Dreamstudio
+
+A vontade de fuçar na midjourney terminou na hora que eu vi que eu precisava ficar fazendo isso _no discord_. Nada contra o discord, até gosto dele -- exceto quando ele mata o driver da minha placa de vídeo -- mas eu já sabia que as coisas que eu ia pedir para a IA gerar seriam no mínimo... estranhas.
+
+Então essa semana um amigo meu me mandou o link do [Dreamstudio]().
+
+## Suco de pesadelos
+
+A UI do Dreamstudio é razoávelmente simples, e permite gerar algumas combinações interessantes. Essa foi _a primeira coisa que eu gerei lá_:
+
+> ![Abacaxi Matador](/assets/posts/aleatoriedades/2/abacaxi_matador.jpg)
+>
+> _An smiling pineapple killing a human with a knife._
+
+Eu avisei que ia ser estranho...
+
+> ![Cabeça de abacaxi](/assets/posts/aleatoriedades/2/cabeca_de_abacaxi.jpg)
+>
+> _A pineapple head cutting its hair. Eu tenho um lance com abacaxis._
+
+Entre muitas outras coisas, eu consegui gerar a _bola quadrada do kiko_, _uma foto da minha geladeira_ e até um retrato da minha frustração e semvergonhice:
+
+> ![Bola Quadrada](/assets/posts/aleatoriedades/2/bola_quadrada.jpg)
+>
+> _An square ball._
+
+> ![A janta hoje é superbonder](/assets/posts/aleatoriedades/2/a_janta_vai_ser_superbonder.jpg)
+>
+> _A fridge with human heads inside._
+
+> ![Não é o Cthulhu](/assets/posts/aleatoriedades/2/naoeochuthulu.jpg)
+>
+> _Chulhu in the woods at night, behance style._
+
+> ![Sou marrom por dentro](/assets/posts/aleatoriedades/2/soumarrompordentro.jpg)
+>
+> _The frustration inside me._
+
+## _Designer de produtos_
+
+Existem aquelas coisas _bem de sonho mesmo_, como quando nós sonhamos que existia um _playstation da microsoft_:
+
+> ![Microsoft Playstation Pro](/assets/posts/aleatoriedades/2/microsoft_playstation_pro.jpg)
+>
+> _The microsoft playstation._
+
+> ![Playstation Series X](/assets/posts/aleatoriedades/2/playstation_series_x.jpg)
+>
+> _The sony xbox series x._
+
+Essa não fui eu que gerei, mas está aqui com a devida permissão:
+
+> ![Direto do aliexpress](/assets/posts/aleatoriedades/2/microtendo_wiinect.jpg)
+>
+> _The microsoft nintendo game console and controller._
+
+## Coisas aviltantes
+
+O que acham a respeito da _coca-cola da pepsi_?
+
+> ![Apenas uma agressão](/assets/posts/aleatoriedades/2/apenas_uma_agressao.jpg)
+>
+> _The coca cola can with a pepsi logo_
+
+Já registrei o domínio redcua.com, perdeu:
+
+> ![Red Cua e Coé Cola](/assets/posts/aleatoriedades/2/red_cua_e_coe_cola.jpg)
+
+Direto da união soviética:
+
+> ![Pepsi Soviética](/assets/posts/aleatoriedades/2/pepsi_sovietica.jpg)
+
+A latas de refrigerante ficam muito legais:
+
+> ![Pespiesa](/assets/posts/aleatoriedades/2/pespiesa.jpg)
+
+> ![Opeo Repo](/assets/posts/aleatoriedades/2/opeo_repo.jpg)
+
+> ![Rec Cola](/assets/posts/aleatoriedades/2/Rec.jpg)
+
+## Fotos antigas são a materialização do mal
+
+Está duvidando?
+
+> ![Uma família feliz](/assets/posts/aleatoriedades/2/familia_feliz.jpg)
+
+> ![Meu velório em chernobyl](/assets/posts/aleatoriedades/2/podeissoarnaldo.jpg)
+
+> ![Os caras legais do braço com 77 articulações](/assets/posts/aleatoriedades/2/noite_louca_com_pessoas_descoladas.jpg)
+
+> ![Foto da festa da firma](/assets/posts/aleatoriedades/2/sorria.jpg)
+
+> ![ET de terno](/assets/posts/aleatoriedades/2/abducao_com_classe.jpg)
+
+> ![Três pessoas e um canadense](/assets/posts/aleatoriedades/2/familia_canadense.jpg)
+
+> ![Quadro da sala de casa](/assets/posts/aleatoriedades/2/pendura_na_parede_vai.jpg)
+
+> ![É a cara do pai](/assets/posts/aleatoriedades/2/vai_passar_quando_ela_crescer.jpg)
+
+> ![Purgatório](/assets/posts/aleatoriedades/2/role_do_cleber.jpg)
+
+## Estou com medo
+
+No final das contas, o _Dreamstudio_ também é o _Nightmarestudio_, depende da cabeça de quem usa. A aplicação tem créditos limitados, e eu começo a compreender que não é devido a limitações de hardware -- eles apenas devem ter medo do que as pessoas irão digitar. Isso deve ser pior do que moderar posts do facebook. Ok, nada é pior que isso.
+
+Vou ficando por aqui, pois preciso ir no mercado já que bebi toda a Red Cua que tinha aqui. Até a próxima, e cuidado com o clã da _cabeça de abacaxi com uma faca na mão_.
