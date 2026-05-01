@@ -42,7 +42,7 @@ A nested blockquote:
 >
 > > Inner level, nested one level deeper.
 > >
-> > > And a third level, if you really need it.
+> > > And a third __level__, if you really need it.
 
 ---
 
@@ -186,6 +186,18 @@ no syntax highlighting here
 | alpha        |     beta       |         gamma |
 | one          |      two       |         three |
 | longer entry |    middle      |         right |
+
+### Wide table (horizontal scroll)
+
+| ID  | First Name | Last Name   | Email                        | Department     | Role              | Location       | Start Date | Salary (€) | Active |
+|-----|------------|-------------|------------------------------|----------------|-------------------|----------------|------------|------------|--------|
+| 001 | Ada        | Lovelace    | ada@example.com              | Engineering    | Lead Engineer     | London         | 2019-03-12 | 95,000     | Yes    |
+| 002 | Grace      | Hopper      | grace@example.com            | Engineering    | Principal Architect | Boston       | 2017-07-01 | 110,000    | Yes    |
+| 003 | Alan       | Turing      | alan@example.com             | Research       | Research Lead     | Manchester     | 2020-01-15 | 102,000    | Yes    |
+| 004 | Margaret   | Hamilton    | margaret@example.com         | Engineering    | Software Engineer | Cambridge, MA  | 2021-06-30 | 88,000     | Yes    |
+| 005 | Linus      | Torvalds    | linus@example.com            | Infrastructure | Staff Engineer    | Helsinki       | 2018-11-04 | 120,000    | Yes    |
+| 006 | Barbara    | Liskov      | barbara@example.com          | Research       | Fellow            | Boston         | 2016-02-20 | 135,000    | No     |
+| 007 | Tim        | Berners-Lee | tim@example.com              | Platform       | Distinguished Eng | Geneva         | 2015-09-09 | 140,000    | Yes    |
 
 ---
 
