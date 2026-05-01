@@ -120,6 +120,16 @@ fn main() {
 }
 ```
 
+### Long lines (horizontal scroll)
+
+```rust
+pub fn process_pipeline(input: &[DataRecord], config: &PipelineConfig, logger: &dyn Logger) -> Result<Vec<ProcessedRecord>, PipelineError> {
+    let filtered: Vec<&DataRecord> = input.iter().filter(|r| r.is_valid() && r.timestamp >= config.start_time && r.timestamp <= config.end_time).collect();
+    let transformed: Result<Vec<ProcessedRecord>, _> = filtered.iter().map(|r| transform_record(r, &config.transform_rules, logger)).collect();
+    transformed.map_err(|e| PipelineError::TransformFailed { source: Box::new(e), record_count: filtered.len() })
+}
+```
+
 ### Fenced block (Bash)
 
 ```bash
