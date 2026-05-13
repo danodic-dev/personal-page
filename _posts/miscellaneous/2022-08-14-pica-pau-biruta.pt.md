@@ -2,6 +2,7 @@
 layout: post
 title: "Pica-Pau Biruta"
 lang: pt
+permalink: /2022/08/14/pica-pau-biruta/
 tags: [aleatoriedades, pica-pau]
 ---
 
@@ -79,4 +80,4 @@ Esta é a encarnação do caos, a materialização do mal, a zueira pela zueira.
 
 Se eu estivesse escrevendo este post em inglês estaria tudo sossegado. Mas o problema é que o personagem se chama pica-pau, e isso tem mais sentidos em português do que o desenho tem episódios.
 
-Mas, temos que admitir algumas coisas, então o importante é ter _certeza absoluta_ que a bateria do meu teclado não acabe enquanto escrevo isso: após essa análise toda, eu posso dizer que _sou um sommelier de pica-.
+Mas, temos que admitir algumas coisas, então o importante é ter _certeza absoluta_ que a bateria do meu teclado não acabe enquanto escrevo isso: após essa análise toda, eu posso dizer que _sou um sommelier de pica-

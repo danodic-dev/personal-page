@@ -2,6 +2,7 @@
 layout: post
 title: "Fábrica de Pesadelos"
 lang: pt
+permalink: /2022/08/28/fabrica-de-pesadelos/
 tags: [aleatoriedades, ia]
 ---
 

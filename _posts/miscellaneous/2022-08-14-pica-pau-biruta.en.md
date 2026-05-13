@@ -2,6 +2,7 @@
 layout: post
 title: "Wacky Woody"
 lang: en
+permalink: /2022/08/14/pica-pau-biruta/
 tags: [aleatoriedades, pica-pau]
 ---
 

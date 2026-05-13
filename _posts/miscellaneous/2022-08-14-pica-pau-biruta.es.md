@@ -2,6 +2,7 @@
 layout: post
 title: "El Pájaro Loco Biruta"
 lang: es
+permalink: /2022/08/14/pica-pau-biruta/
 tags: [aleatoriedades, pica-pau]
 ---
 
