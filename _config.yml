@@ -39,9 +39,17 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+  input: GFM
 
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
+
+# Polyglot
+languages: ["pt", "es", "en"]
+default_lang: "pt"
+exclude_from_localization: ["assets", "_sass", "_plugins", "Gemfile", "Makefile", "docs"]
+parallel_localization: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

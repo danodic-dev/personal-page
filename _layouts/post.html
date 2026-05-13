@@ -4,14 +4,20 @@ layout: default
 <article class="post">
   <header class="post__header">
     <h1>{{ page.title }}</h1>
-    <div class="post__meta">
-      <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">
-        {{- page.git_date | date: "%Y-%m-%d %H:%M" | default: page.date | date: "%Y-%m-%d %H:%M" -}}
-      </time>
-      {% if page.git_author %}
-      <span class="post__author">{{ page.git_author }}</span>
-      {% endif %}
-    </div>
+    <p class="post__meta">
+      {%- assign display_date = page.git_created | default: page.git_date | default: page.date -%}
+      {%- assign updated_date = page.git_date -%}
+      {%- assign t = site.data.translations[site.active_lang].post -%}
+      {{ t.by }} <strong>{{ page.git_author | default: site.author }}</strong> {{ t.at }} <strong><time datetime="{{ display_date | date_to_xmlschema }}">{{ display_date | date: "%Y-%m-%d %H:%M" }}</time></strong>
+      {%- if page.git_created %}, {{ t.updated_at }} <strong><time datetime="{{ updated_date | date_to_xmlschema }}">{{ updated_date | date: "%Y-%m-%d %H:%M" }}</time></strong>{% endif %}.
+    </p>
+    {% if page.tags and page.tags.size > 0 %}
+    <ul class="tag-list">
+      {% for tag in page.tags %}
+      <li class="tag-list__item"><a href="/{{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </header>
   <div class="post__body">
     {{ content }}

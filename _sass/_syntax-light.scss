@@ -1,116 +1,117 @@
-[data-theme="light"] .chrome__content .highlight table td { padding: 5px; }
-[data-theme="light"] .chrome__content .highlight table pre { margin: 0; }
-[data-theme="light"] .chrome__content .highlight, .highlight .w {
-  color: #24292f;
-  background-color: #f6f8fa;
-}
-[data-theme="light"] .chrome__content .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
-  color: #cf222e;
-}
-[data-theme="light"] .chrome__content .highlight .gr {
-  color: #f6f8fa;
-}
-[data-theme="light"] .chrome__content .highlight .gd {
-  color: #82071e;
-  background-color: #ffebe9;
-}
-[data-theme="light"] .chrome__content .highlight .nb {
-  color: #953800;
-}
-[data-theme="light"] .chrome__content .highlight .nc {
-  color: #953800;
-}
-[data-theme="light"] .chrome__content .highlight .no {
-  color: #953800;
-}
-[data-theme="light"] .chrome__content .highlight .nn {
-  color: #953800;
-}
-[data-theme="light"] .chrome__content .highlight .sr {
-  color: #116329;
-}
-[data-theme="light"] .chrome__content .highlight .na {
-  color: #116329;
-}
-[data-theme="light"] .chrome__content .highlight .nt {
-  color: #116329;
-}
-[data-theme="light"] .chrome__content .highlight .gi {
-  color: #116329;
-  background-color: #dafbe1;
-}
-[data-theme="light"] .chrome__content .highlight .ges {
-  font-weight: bold;
-  font-style: italic;
-}
-[data-theme="light"] .chrome__content .highlight .kc {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .sb {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .bp {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .ne {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .nl {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .py {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .o, .highlight .ow {
-  color: #0550ae;
-}
-[data-theme="light"] .chrome__content .highlight .gh {
-  color: #0550ae;
-  font-weight: bold;
-}
-[data-theme="light"] .chrome__content .highlight .gu {
-  color: #0550ae;
-  font-weight: bold;
-}
-[data-theme="light"] .chrome__content .highlight .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
-  color: #0a3069;
-}
-[data-theme="light"] .chrome__content .highlight .nd {
-  color: #8250df;
-}
-[data-theme="light"] .chrome__content .highlight .nf, .highlight .fm {
-  color: #8250df;
-}
-[data-theme="light"] .chrome__content .highlight .err {
-  color: #f6f8fa;
-  background-color: #82071e;
-}
-[data-theme="light"] .chrome__content .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #6e7781;
-}
-[data-theme="light"] .chrome__content .highlight .gl {
-  color: #6e7781;
-}
-[data-theme="light"] .chrome__content .highlight .gt {
-  color: #6e7781;
-}
-[data-theme="light"] .chrome__content .highlight .ni {
-  color: #24292f;
-}
-[data-theme="light"] .chrome__content .highlight .si {
-  color: #24292f;
-}
-[data-theme="light"] .chrome__content .highlight .ge {
-  color: #24292f;
-  font-style: italic;
-}
-[data-theme="light"] .chrome__content .highlight .gs {
-  color: #24292f;
-  font-weight: bold;
+// Syntax theme — light mode (opposite of _syntax-dark.scss)
+//
+// All tokens are shades of --color-dark on --color-light background.
+// Weights and shade levels mirror the dark theme exactly.
+
+[data-theme="light"] {
+  .chrome__content pre {
+    background-image: url('/assets/img/hatch-light.svg');
+  }
+
+  .chrome__content .highlight {
+    color: color-mix(in srgb, var(--color-dark) 65%, transparent);
+    background-color: var(--color-light);
+    background-image: url('/assets/img/hatch-light.svg');
+  }
+
+  .chrome__content .highlight span { background-color: transparent; }
+  .chrome__content .highlight table td { padding: 5px; }
+  .chrome__content .highlight table pre { margin: 0; }
+
+  // Plain text / whitespace / default identifiers — 400, 70%
+  .chrome__content .highlight .w,
+  .chrome__content .highlight .n,
+  .chrome__content .highlight .py,
+  .chrome__content .highlight .nx,
+  .chrome__content .highlight .nl,
+  .chrome__content .highlight .ni  { color: color-mix(in srgb, var(--color-dark) 70%, transparent); font-weight: 400; }
+
+  // Operators / punctuation — 400, 55%
+  .chrome__content .highlight .o,
+  .chrome__content .highlight .ow,
+  .chrome__content .highlight .p   { color: color-mix(in srgb, var(--color-dark) 55%, transparent); font-weight: 400; }
+
+  // Strings — 500, 80%
+  .chrome__content .highlight .s,
+  .chrome__content .highlight .sa,
+  .chrome__content .highlight .sb,
+  .chrome__content .highlight .dl,
+  .chrome__content .highlight .sd,
+  .chrome__content .highlight .s2,
+  .chrome__content .highlight .sh,
+  .chrome__content .highlight .si,
+  .chrome__content .highlight .sx,
+  .chrome__content .highlight .s1,
+  .chrome__content .highlight .sc,
+  .chrome__content .highlight .se,
+  .chrome__content .highlight .ss,
+  .chrome__content .highlight .sr  { color: color-mix(in srgb, var(--color-dark) 80%, transparent); font-weight: 500; }
+
+  // Numbers / literals — 500, 80%
+  .chrome__content .highlight .m,
+  .chrome__content .highlight .mb,
+  .chrome__content .highlight .mx,
+  .chrome__content .highlight .mf,
+  .chrome__content .highlight .mh,
+  .chrome__content .highlight .mi,
+  .chrome__content .highlight .mo,
+  .chrome__content .highlight .il  { color: color-mix(in srgb, var(--color-dark) 80%, transparent); font-weight: 500; }
+
+  // Variables / attributes — 500, 75%
+  .chrome__content .highlight .nv,
+  .chrome__content .highlight .vc,
+  .chrome__content .highlight .vi,
+  .chrome__content .highlight .vg,
+  .chrome__content .highlight .vm,
+  .chrome__content .highlight .na  { color: color-mix(in srgb, var(--color-dark) 75%, transparent); font-weight: 500; }
+
+  // Keywords / constants / types / builtins / tag names — 600, 85%
+  .chrome__content .highlight .k,
+  .chrome__content .highlight .kd,
+  .chrome__content .highlight .kv,
+  .chrome__content .highlight .kn,
+  .chrome__content .highlight .kp,
+  .chrome__content .highlight .kr,
+  .chrome__content .highlight .kc,
+  .chrome__content .highlight .kt,
+  .chrome__content .highlight .nb,
+  .chrome__content .highlight .bp,
+  .chrome__content .highlight .no,
+  .chrome__content .highlight .nt  { color: color-mix(in srgb, var(--color-dark) 85%, transparent); font-weight: 600; }
+
+  // Function names / class names / namespaces / decorators — 700, 100%
+  .chrome__content .highlight .nf,
+  .chrome__content .highlight .fm,
+  .chrome__content .highlight .nc,
+  .chrome__content .highlight .nn,
+  .chrome__content .highlight .nd,
+  .chrome__content .highlight .ne  { color: var(--color-dark); font-weight: 700; }
+
+  // Comments — 300 italic, 30% (dimmest)
+  .chrome__content .highlight .c,
+  .chrome__content .highlight .ch,
+  .chrome__content .highlight .cd,
+  .chrome__content .highlight .cm,
+  .chrome__content .highlight .cp,
+  .chrome__content .highlight .cpf,
+  .chrome__content .highlight .c1,
+  .chrome__content .highlight .cs  { color: color-mix(in srgb, var(--color-dark) 30%, transparent); font-weight: 300; font-style: italic; }
+
+  // Errors — 700, 100%
+  .chrome__content .highlight .err,
+  .chrome__content .highlight .gr,
+  .chrome__content .highlight .gt  { color: var(--color-dark); font-weight: 700; }
+
+  // Diff
+  .chrome__content .highlight .gd  { color: color-mix(in srgb, var(--color-dark) 50%, transparent); font-weight: 500; }
+  .chrome__content .highlight .gi  { color: var(--color-dark); font-weight: 700; }
+  .chrome__content .highlight .gh,
+  .chrome__content .highlight .gu  { color: var(--color-dark); font-weight: 700; }
+  .chrome__content .highlight .gp,
+  .chrome__content .highlight .go  { color: color-mix(in srgb, var(--color-dark) 40%, transparent); font-weight: 400; }
+
+  // Generic formatting
+  .chrome__content .highlight .ge  { font-style: italic; }
+  .chrome__content .highlight .gs  { font-weight: 700; }
+  .chrome__content .highlight .ges { font-weight: 700; font-style: italic; }
 }

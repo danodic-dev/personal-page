@@ -1,7 +1,7 @@
 ---
 layout: tag_page
-title: Projects
+title: Proyectos
 tag: project
 permalink: /projects/
-lang: pt
+lang: es
 ---

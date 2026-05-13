@@ -1,7 +1,7 @@
 ---
 layout: tag_page
-title: Music
+title: Música
 tag: music
 permalink: /music/
-lang: pt
+lang: es
 ---

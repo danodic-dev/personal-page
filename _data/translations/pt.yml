@@ -1,0 +1,13 @@
+nav:
+  home: início
+  index: índice
+  music: música
+  programming: programação
+  projects: projetos
+  miscellaneous: aleatoriedades
+  videos: vídeos
+  about: apropos
+post:
+  by: "Por"
+  at: "às"
+  updated_at: "atualizado às"

@@ -1,7 +1,7 @@
 ---
 layout: tag_page
-title: Programming
+title: Programación
 tag: programming
 permalink: /programming/
-lang: pt
+lang: es
 ---
