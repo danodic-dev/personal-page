@@ -2,7 +2,7 @@
 layout: post
 title: "Fábrica de Pesadillas"
 lang: es
-tags: [aleatoriedades, ia, dreamstudio]
+tags: [aleatoriedades, ia]
 ---
 
 La semana pasada escribí un devlog entero y lo dejé para traducir después. _Lo olvidé completamente._

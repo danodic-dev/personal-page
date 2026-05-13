@@ -2,7 +2,7 @@
 layout: post
 title: "Nightmare Factory"
 lang: en
-tags: [aleatoriedades, ia, dreamstudio]
+tags: [aleatoriedades, ia]
 ---
 
 Last week I wrote a full devlog and left it to translate later. _I completely forgot about it._
