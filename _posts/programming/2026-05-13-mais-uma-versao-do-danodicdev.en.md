@@ -2,6 +2,7 @@
 layout: post
 title: "Yet Another Version of danodic.dev"
 lang: en
+permalink: /2026/05/13/mais-uma-versao-do-danodicdev/
 tags: [programming, ia]
 ---
 
