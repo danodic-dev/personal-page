@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mais uma versão do danodic.dev"
+lang: pt
 tags: [programming, ia]
 ---
 
