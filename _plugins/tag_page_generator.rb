@@ -8,7 +8,7 @@ module Jekyll
       all_pages = site.pages + collection_docs
 
       site.tags.each_key do |tag|
-        next if all_pages.any? { |p| p.data['tag'] == tag }
+        next if all_pages.any? { |p| p.data['permalink'] == "/#{tag}/" }
 
         site.pages << TagPage.new(site, site.source, tag)
       end
