@@ -14,7 +14,10 @@ layout: default
     {% if page.tags and page.tags.size > 0 %}
     <ul class="tag-list">
       {% for tag in page.tags %}
-      <li class="tag-list__item"><a href="/{{ tag }}">{{ tag }}</a></li>
+      {% assign tag_page = site.pages | where: "tag", tag | first %}
+      <li class="tag-list__item">
+        {% if tag_page %}<a href="{{ tag_page.url | relative_url }}">{{ tag }}</a>{% else %}<span>{{ tag }}</span>{% endif %}
+      </li>
       {% endfor %}
     </ul>
     {% endif %}
