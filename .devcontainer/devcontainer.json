@@ -12,5 +12,8 @@
       ]
     }
   },
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+  ],
   "postCreateCommand": ""
 }
