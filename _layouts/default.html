@@ -90,20 +90,25 @@
     <script>
       (function () {
         var defaultLang = "pt";
+        var baseurl = "{{ site.baseurl }}";
         var langs = {{ site.data.languages | jsonify }};
         var path = window.location.pathname;
 
+        // Strip baseurl so the rest of the logic works against the site-root-relative path
+        var sitePath = (baseurl && path.startsWith(baseurl)) ? path.slice(baseurl.length) || "/" : path;
+
         // Strip any non-default language prefix to get the canonical path
-        var canonical = path;
+        var canonical = sitePath;
         langs.forEach(function (lang) {
           if (lang === defaultLang) return;
-          if (path === "/" + lang || path === "/" + lang + "/") { canonical = "/"; return; }
-          if (path.startsWith("/" + lang + "/")) canonical = path.slice(lang.length + 1);
+          if (sitePath === "/" + lang || sitePath === "/" + lang + "/") { canonical = "/"; return; }
+          if (sitePath.startsWith("/" + lang + "/")) canonical = sitePath.slice(lang.length + 1);
         });
 
         document.querySelectorAll(".sidebar__lang[data-lang]").forEach(function (el) {
           var lang = el.getAttribute("data-lang");
-          el.href = lang === defaultLang ? canonical : "/" + lang + canonical;
+          var langPath = lang === defaultLang ? canonical : "/" + lang + canonical;
+          el.href = baseurl + langPath;
         });
       })();
     </script>
