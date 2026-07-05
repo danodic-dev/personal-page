@@ -6,14 +6,14 @@ permalink: /2026/07/02/project-cemetery
 tags: [aleatoriedades, programming]
 ---
 
+> Veja bem, eu uso IA para __traduzir__ os posts, não para escrever eles. Ao
+> menos uma das versões dele vai ter sido escrita manualmente por mim, sem uso
+> de assistentes de código. Neste caso, é o post em inglês.
+
 Sou uma pessoa que curte programar, e esse é um dos meus hobbies. Gosto muito de
 experimentar coisas novas, linguagens novas, stacks novas. Se eu ouço falar de
 uma linguagem pouco conhecida mas não muito esotérica, eu vou testar. E o meu
 jeito de testar e aprender é escrevendo código.
-
-> Veja bem, eu uso IA para __traduzir__ os posts, não para escrever eles. Ao
-> menos uma das versões dele vai ter sido escrita manualmente por mim, sem uso
-> de assistentes de código. Neste caso, é o post em inglês mesmo.
 
 Só que eu reconheço que preciso me acostumar mais com o conceito de gists ou
 projetos sandbox pra conseguir testar mais coisas com menos infraestrutura e

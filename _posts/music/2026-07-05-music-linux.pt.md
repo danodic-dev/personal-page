@@ -280,6 +280,8 @@ ajudam justamente com os que precisam ser descompactados na mão.
 Depois de tudo configurado, o Renoise consegue carregar os VSTs e eu consigo
 começar a brincar nele.
 
+![Renoise](/assets/posts/musica/1/renoise.png)
+
 Agora começa a parte divertida: experimentação, hiperfoco e barulho. Devo
 começar a usar os plugins que comprei, testar plugins novos e começar a postar o
 que vou descobrindo (e fazendo) por aqui.

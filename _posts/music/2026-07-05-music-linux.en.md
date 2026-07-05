@@ -275,6 +275,8 @@ help exactly with the ones that need to be unpacked manually.
 Once everything is configured, Renoise can load the VSTs and I can start playing
 around with it.
 
+![Renoise](/assets/posts/musica/1/renoise.png)
+
 Now the fun part begins: experimentation, hyperfocus, and noise. I should start
 using the plugins I bought, test new plugins, and start posting what I find (and
 make) here.

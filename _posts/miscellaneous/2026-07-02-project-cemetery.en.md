@@ -6,14 +6,14 @@ permalink: /2026/07/02/project-cemetery
 tags: [aleatoriedades, programming]
 ---
 
+> To be clear, I use AI to __translate__ the posts, not to write them. At
+> least one version of each will have been written manually by me, with no
+> code assistants. In this case, that's the English version.
+
 I am a person who likes coding, and this is one of my hobbies. I often like to
 try new things, new languages, new stacks. If I hear about a less-known but not
 too esoteric language, I'll try it. And my way of trying it and learning is
 writing code.
-
-> To be clear, I use AI to __translate__ the posts, not to write them. At
-> least one version of each will have been written manually by me, with no
-> code assistants. In this case, that's the English version.
 
 However, I reckon I need to get more used to the concept of gists or sandbox
 projects in order to try more things with less infrastructure and setup. Today
