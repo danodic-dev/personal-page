@@ -230,6 +230,7 @@ body {
 
 .chrome__content {
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -673,6 +674,10 @@ body {
 @media (max-width: 768px) {
   body {
     padding-top: 48px;
+  }
+
+  .chrome {
+    min-height: calc(100vh - 48px);
   }
 
   body.sidebar-open {
