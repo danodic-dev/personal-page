@@ -287,6 +287,13 @@ body {
     display: block;
   }
 
+  iframe {
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: block;
+  }
+
   a {
     color: var(--accent);
     text-decoration: underline;
