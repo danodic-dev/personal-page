@@ -6,10 +6,21 @@ permalink: /2026/10/28/por-onde-comecar-a-fazer-jogos/
 tags: [gamedev, programming]
 ---
 
+> Ojo, normalmente uso IA solo para __traducir__ los posts, no para escribirlos.
+> Este es una excepción: dicté el texto, lo pasé por un STT y usé un LLM para
+> organizar y redactar el post a partir de lo que dije. Las ideas y las
+> opiniones son mías; la redacción, no tanto.
+
 Un amigo me preguntó cómo empezar en el desarrollo de juegos: qué estudiar, qué
 herramienta usar, por dónde ir. En vez de contestarle con un mensaje enorme que
 se iba a perder en el medio del chat, decidí escribir acá cuál es mi visión
 sobre el tema.
+
+Manteniendo la tradición, acá va la canción del post:
+
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Djka3ieMJhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+Y sí. Llegó el día en que me gustó genuinamente algo de Skrillex. Pasa.
 
 Antes que nada, una aclaración: no soy un desarrollador de juegos profesional.
 Nunca lancé nada comercialmente. Pero hice algunos juegos a lo largo de la vida,

@@ -6,10 +6,22 @@ permalink: /2026/10/28/por-onde-comecar-a-fazer-jogos/
 tags: [gamedev, programming]
 ---
 
+> To be clear, I usually only use AI to __translate__ the posts, not to write
+> them. This one is an exception: I dictated the text, ran it through STT and
+> used an LLM to organize and write the post based on what I said. The ideas
+> and opinions are mine; the wording, not so much.
+
 A friend asked me how to get started in game development: what to study, which
 tool to use, where to go from there. Instead of answering with a huge message
 that would get lost in the middle of the chat, I decided to write down my take
 on the subject here.
+
+Keeping with tradition, here's the post's song:
+
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Djka3ieMJhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+Yeah. The day has come when I genuinely liked something by Skrillex. It
+happens.
 
 Before anything else, a disclaimer: I'm not a professional game developer. I've
 never released anything commercially. But I've made a few games over the years,
