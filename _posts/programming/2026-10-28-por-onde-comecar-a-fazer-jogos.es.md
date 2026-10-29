@@ -22,9 +22,9 @@ Manteniendo la tradición, acá va la canción del post:
 
 Y sí. Llegó el día en que me gustó genuinamente algo de Skrillex. Pasa.
 
-Antes que nada, una aclaración: no soy un desarrollador de juegos profesional.
-Nunca lancé nada comercialmente. Pero hice algunos juegos a lo largo de la vida,
-y aprendí algunas cosas en el camino -- generalmente de la forma más difícil.
+> Antes que nada, una aclaración: no soy un desarrollador de juegos profesional.
+> Nunca lancé nada comercialmente. Pero hice algunos juegos a lo largo de la vida,
+> y aprendí algunas cosas en el camino -- generalmente de la forma más difícil.
 
 ## El cementerio de prototipos
 

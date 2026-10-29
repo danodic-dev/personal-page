@@ -23,9 +23,9 @@ Keeping with tradition, here's the post's song:
 Yeah. The day has come when I genuinely liked something by Skrillex. It
 happens.
 
-Before anything else, a disclaimer: I'm not a professional game developer. I've
-never released anything commercially. But I've made a few games over the years,
-and I learned a few things along the way -- usually the hard way.
+> Before anything else, a disclaimer: I'm not a professional game developer. I've
+> never released anything commercially. But I've made a few games over the years,
+> and I learned a few things along the way -- usually the hard way.
 
 ## The prototype graveyard
 

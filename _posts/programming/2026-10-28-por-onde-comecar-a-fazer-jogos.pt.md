@@ -23,10 +23,10 @@ Mantendo a tradição, segue a música do post:
 Pois é. Chegou o dia em que eu genuinamente gostei de algo do Skrillex.
 Acontece.
 
-Antes de qualquer coisa, um aviso: eu não sou um desenvolvedor de jogos
-profissional. Nunca lancei nada comercialmente. Mas eu fiz alguns jogos ao longo
-da vida, e aprendi algumas coisas no caminho -- geralmente da forma mais
-difícil.
+> Antes de qualquer coisa, um aviso: eu não sou um desenvolvedor de jogos
+> profissional. Nunca lancei nada comercialmente. Mas eu fiz alguns jogos ao longo
+> da vida, e aprendi algumas coisas no caminho -- geralmente da forma mais
+> difícil.
 
 ## O cemitério de protótipos
 
