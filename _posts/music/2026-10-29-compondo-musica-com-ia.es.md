@@ -292,7 +292,7 @@ general.
 
 Algunos de los temas que salieron de este proceso están en esta playlist:
 
-> <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLWKExF6iZOqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+> <p><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n5BX2GxmqmN0HUe9&amp;list=PLWKExF6iZOqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 >
 > _Temas compuestos con SunVox._
 
